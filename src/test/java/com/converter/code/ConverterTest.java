@@ -18,7 +18,7 @@ public class ConverterTest {
     void yardsTest(){
         int yards = 5;
         double expected = 5*0.9144;
-        double result = converter.centimeters(yards);
+        double result = converter.meters(yards);
         assertEquals(expected,result);
     }
 }
