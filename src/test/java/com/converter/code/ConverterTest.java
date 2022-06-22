@@ -13,4 +13,12 @@ public class ConverterTest {
         double result = converter.centimeters(inches);
         assertEquals(expected,result);
     }
+
+    @Test
+    void yardsTest(){
+        int yards = 5;
+        double expected = 5*0.9144;
+        double result = converter.centimeters(yards);
+        assertEquals(expected,result);
+    }
 }
